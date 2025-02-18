@@ -3,8 +3,7 @@ using System;
 using HrAdministrationAPI;
 
 
-
-decimal salaries = 0;
+//decimal salaries = 0;
 
 List<IEmployee> employees = new List<IEmployee>();
 
@@ -21,61 +20,82 @@ SeedData(employees);
 
 Console.WriteLine($"Salaries Including Bonusses {employees.Sum(e => e.Salary)}");
 
+
+
+
 static void SeedData(List<IEmployee> employees)
 {
-    IEmployee teacher1 = new Teacher
-    {
-        Id = 1,
-        FirstName  = "Bob",
-        LastName = "Fisher",
-        Salary = 40000
-
-    };
-
+    IEmployee teacher1 = EmployeeFactory.GetEmployeeInstance(EmployeeType.Teacher, 1, "Bob", "Fisher", 40000);
+      
     employees.Add(teacher1);
 
-    IEmployee teacher2 = new Teacher
-    {
-        Id = 2,
-        FirstName = "Joseph",
-        LastName = "Wainaina",
-        Salary = 10000000
-    };
+    IEmployee teacher2 = EmployeeFactory.GetEmployeeInstance(EmployeeType.Teacher, 2, "Jenny", "Thomson", 40000);
 
     employees.Add(teacher2);
 
-    IEmployee headOFDepartment = new HeadOfDepartment
-    {
-        Id = 3,
-        FirstName = "Lucy",
-        LastName = "Omondi",
-        Salary = 100000
-    };
+    IEmployee headOfDepartment = EmployeeFactory.GetEmployeeInstance(EmployeeType.HeadOfDepartment, 2, "Brenda", "Mullins", 50000);
 
-    employees.Add(headOFDepartment);
+    employees.Add(headOfDepartment);
 
-    IEmployee deputyHeadMaster = new DeputyHeadMaster
-    {
-        Id = 4,
-        FirstName = "Stephen",
-        LastName = "Weru",
-        Salary = 20024800
-
-    };
+    IEmployee deputyHeadMaster = EmployeeFactory.GetEmployeeInstance(EmployeeType.DeputyHeadMaster, 2, "Devlin", "Brown", 60000);
 
     employees.Add(deputyHeadMaster);
 
-    IEmployee headMaster = new HeadMaster
-    {
-        Id = 5,
-        FirstName = "Kennedy",
-        LastName = "Langat",
-        Salary = 1349493849
-    };
+    IEmployee headMaster = EmployeeFactory.GetEmployeeInstance(EmployeeType.HeadMaster, 2, "Joseph", "Wainaina", 70000);
 
     employees.Add(headMaster);  
         
 
+}
+
+public enum EmployeeType
+{
+    Teacher,
+    HeadOfDepartment,
+    DeputyHeadMaster,
+    HeadMaster
+
+};
+
+public static class EmployeeFactory
+{
+    public static IEmployee GetEmployeeInstance(EmployeeType employeeType, int id, string firstName, string lastName, decimal salary)
+    {
+        IEmployee employee = null;
+
+        switch (employeeType)
+        {
+            case EmployeeType.Teacher:
+                employee = FactoryPattern<IEmployee, Teacher>.GetInstance();
+                break;
+            case EmployeeType.HeadOfDepartment:
+                employee = FactoryPattern<IEmployee, HeadOfDepartment>.GetInstance(); ;
+                break;
+            case EmployeeType.DeputyHeadMaster:
+                employee = FactoryPattern<IEmployee, DeputyHeadMaster>.GetInstance();
+                break;
+            case EmployeeType.HeadMaster:
+                employee = FactoryPattern<IEmployee, HeadMaster>.GetInstance(); ;
+                break;
+            default:
+                break;
+        }
+
+        if (employee != null)
+        {
+            employee.Id = id;
+            employee.FirstName = firstName;
+            employee.LastName = lastName;
+            employee.Salary = salary;
+        }
+
+        else
+        {
+            throw new NullReferenceException();
+        }
+
+        return employee;
+    }
 }
 
 public class Teacher : EmployeeBase
