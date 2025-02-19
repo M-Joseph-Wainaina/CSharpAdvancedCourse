@@ -1,0 +1,12 @@
+C:\Users\Wainaina\source\repos\csharp-crush-course\FactoryDesignPattern\HrAdministrationAPI\bin\Debug\net8.0\HrAdministrationAPI.deps.json
+C:\Users\Wainaina\source\repos\csharp-crush-course\FactoryDesignPattern\HrAdministrationAPI\bin\Debug\net8.0\HrAdministrationAPI.dll
+C:\Users\Wainaina\source\repos\csharp-crush-course\FactoryDesignPattern\HrAdministrationAPI\bin\Debug\net8.0\HrAdministrationAPI.pdb
+C:\Users\Wainaina\source\repos\csharp-crush-course\FactoryDesignPattern\HrAdministrationAPI\obj\Debug\net8.0\HrAdministrationAPI.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Wainaina\source\repos\csharp-crush-course\FactoryDesignPattern\HrAdministrationAPI\obj\Debug\net8.0\HrAdministrationAPI.AssemblyInfoInputs.cache
+C:\Users\Wainaina\source\repos\csharp-crush-course\FactoryDesignPattern\HrAdministrationAPI\obj\Debug\net8.0\HrAdministrationAPI.AssemblyInfo.cs
+C:\Users\Wainaina\source\repos\csharp-crush-course\FactoryDesignPattern\HrAdministrationAPI\obj\Debug\net8.0\HrAdministrationAPI.csproj.CoreCompileInputs.cache
+C:\Users\Wainaina\source\repos\csharp-crush-course\FactoryDesignPattern\HrAdministrationAPI\obj\Debug\net8.0\HrAdministrationAPI.sourcelink.json
+C:\Users\Wainaina\source\repos\csharp-crush-course\FactoryDesignPattern\HrAdministrationAPI\obj\Debug\net8.0\HrAdministrationAPI.dll
+C:\Users\Wainaina\source\repos\csharp-crush-course\FactoryDesignPattern\HrAdministrationAPI\obj\Debug\net8.0\refint\HrAdministrationAPI.dll
+C:\Users\Wainaina\source\repos\csharp-crush-course\FactoryDesignPattern\HrAdministrationAPI\obj\Debug\net8.0\HrAdministrationAPI.pdb
+C:\Users\Wainaina\source\repos\csharp-crush-course\FactoryDesignPattern\HrAdministrationAPI\obj\Debug\net8.0\ref\HrAdministrationAPI.dll
