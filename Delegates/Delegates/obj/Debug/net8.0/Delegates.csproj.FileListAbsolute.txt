@@ -1,0 +1,15 @@
+C:\Users\Wainaina\source\repos\csharp-crush-course\Delegates\Delegates\bin\Debug\net8.0\Delegates.exe
+C:\Users\Wainaina\source\repos\csharp-crush-course\Delegates\Delegates\bin\Debug\net8.0\Delegates.deps.json
+C:\Users\Wainaina\source\repos\csharp-crush-course\Delegates\Delegates\bin\Debug\net8.0\Delegates.runtimeconfig.json
+C:\Users\Wainaina\source\repos\csharp-crush-course\Delegates\Delegates\bin\Debug\net8.0\Delegates.dll
+C:\Users\Wainaina\source\repos\csharp-crush-course\Delegates\Delegates\bin\Debug\net8.0\Delegates.pdb
+C:\Users\Wainaina\source\repos\csharp-crush-course\Delegates\Delegates\obj\Debug\net8.0\Delegates.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Wainaina\source\repos\csharp-crush-course\Delegates\Delegates\obj\Debug\net8.0\Delegates.AssemblyInfoInputs.cache
+C:\Users\Wainaina\source\repos\csharp-crush-course\Delegates\Delegates\obj\Debug\net8.0\Delegates.AssemblyInfo.cs
+C:\Users\Wainaina\source\repos\csharp-crush-course\Delegates\Delegates\obj\Debug\net8.0\Delegates.csproj.CoreCompileInputs.cache
+C:\Users\Wainaina\source\repos\csharp-crush-course\Delegates\Delegates\obj\Debug\net8.0\Delegates.sourcelink.json
+C:\Users\Wainaina\source\repos\csharp-crush-course\Delegates\Delegates\obj\Debug\net8.0\Delegates.dll
+C:\Users\Wainaina\source\repos\csharp-crush-course\Delegates\Delegates\obj\Debug\net8.0\refint\Delegates.dll
+C:\Users\Wainaina\source\repos\csharp-crush-course\Delegates\Delegates\obj\Debug\net8.0\Delegates.pdb
+C:\Users\Wainaina\source\repos\csharp-crush-course\Delegates\Delegates\obj\Debug\net8.0\Delegates.genruntimeconfig.cache
+C:\Users\Wainaina\source\repos\csharp-crush-course\Delegates\Delegates\obj\Debug\net8.0\ref\Delegates.dll
