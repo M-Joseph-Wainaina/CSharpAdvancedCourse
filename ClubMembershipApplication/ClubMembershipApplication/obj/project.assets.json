@@ -1139,6 +1139,16 @@
         "build": {
           "buildTransitive/net6.0/_._": {}
         }
+      },
+      "FiedValidationAPI/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/FiedValidationAPI.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/FiedValidationAPI.dll": {}
+        }
       }
     }
   },
@@ -3220,10 +3230,16 @@
         "system.threading.channels.nuspec",
         "useSharedDesignerContext.txt"
       ]
+    },
+    "FiedValidationAPI/1.0.0": {
+      "type": "project",
+      "path": "../FiedValidationAPI/FiedValidationAPI.csproj",
+      "msbuildProject": "../FiedValidationAPI/FiedValidationAPI.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net8.0": [
+      "FiedValidationAPI >= 1.0.0",
       "Microsoft.EntityFrameworkCore.Sqlite >= 9.0.2",
       "Microsoft.EntityFrameworkCore.Tools >= 9.0.2"
     ]
@@ -3260,7 +3276,11 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\Wainaina\\source\\repos\\csharp-crush-course\\ClubMembershipApplication\\FiedValidationAPI\\FiedValidationAPI.csproj": {
+              "projectPath": "C:\\Users\\Wainaina\\source\\repos\\csharp-crush-course\\ClubMembershipApplication\\FiedValidationAPI\\FiedValidationAPI.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

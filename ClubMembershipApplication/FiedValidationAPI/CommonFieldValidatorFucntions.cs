@@ -8,26 +8,26 @@ using System.Threading.Tasks;
 
 namespace FiedValidationAPI
 {
-    public delegate bool RequiredFieldDel(string fieldVal);
+    public delegate bool RequiredValidDel(string fieldVal);
     public delegate bool StringLengthValidDel(string fieldVal, int min, int max);
     public delegate bool DateValidDel(string fieldValue, out DateTime validDate);
-    public delegate bool PatternMatch(string fieldValue, string pattern);
+    public delegate bool PatternMatchValidDel(string fieldValue, string pattern);
     public delegate bool CompareFieldIsValid(string fieldValue, string fieldValueCompare);
 
     public class CommonFieldValidatorFucntions
     {
-        private static RequiredFieldDel _requiredFieldDel = null;
+        private static RequiredValidDel _requiredFieldDel = null;
         private static StringLengthValidDel _stringLengthValidDel = null;
         private static DateValidDel _dateValidDel = null;
-        private static PatternMatch _patternMatch = null;
+        private static PatternMatchValidDel _patternMatch = null;
         private static CompareFieldIsValid _compareFieldIsValid = null;
 
-        public static RequiredFieldDel RequiredFieldValidDel
+        public static RequiredValidDel RequiredFieldValidDel
         {
             get
             {
                 if (_requiredFieldDel == null)
-                    _requiredFieldDel = new RequiredFieldDel(RequiredFieldValid);
+                    _requiredFieldDel = new RequiredValidDel(RequiredFieldValid);
               
                 return _requiredFieldDel;
             }
@@ -55,12 +55,12 @@ namespace FiedValidationAPI
             }
         }
 
-        public static PatternMatch PatternMatchIsValid
+        public static PatternMatchValidDel PatternMatchIsValid
         {
             get
             {
                 if (_patternMatch == null)
-                    _patternMatch = new PatternMatch(PatternMatchValid);
+                    _patternMatch = new PatternMatchValidDel(PatternMatchValid);
 
                 return _patternMatch;
             }
