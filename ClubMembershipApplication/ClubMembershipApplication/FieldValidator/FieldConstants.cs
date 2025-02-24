@@ -14,6 +14,7 @@ namespace ClubMembershipApplication.FieldValidator
             EmailAddress,
             FirstName,
             LastName,
+            Password,
             PasswordCompare,
             DateOfBirth,
             PhoneNumber,

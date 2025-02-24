@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("FiedValidationAPI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+77fe57c8c303a454f46aa1c1790372a9f3a5d390")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fb97fe8b2ef1a8d4bde128063caaed13dc72a75b")]
 [assembly: System.Reflection.AssemblyProductAttribute("FiedValidationAPI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("FiedValidationAPI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
