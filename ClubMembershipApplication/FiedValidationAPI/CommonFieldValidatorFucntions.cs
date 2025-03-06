@@ -87,7 +87,7 @@ namespace FiedValidationAPI
 
         private static bool StringLengthValid(string fieldValue, int min, int max)
         {
-            if (fieldValue.Length >= min && fieldValue.Length >= max)
+            if (fieldValue.Length >= min && fieldValue.Length <= max)
             {
                 return true;
             }

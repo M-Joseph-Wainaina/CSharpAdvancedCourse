@@ -3,6 +3,7 @@ using System;
 using ClubMembershipApplication.Data;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -10,9 +11,11 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace ClubMembershipApplication.Migrations
 {
     [DbContext(typeof(ClubMembershipDbContext))]
-    partial class ClubMembershipDbContextModelSnapshot : ModelSnapshot
+    [Migration("20250306191409_Nullable type ")]
+    partial class Nullabletype
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder.HasAnnotation("ProductVersion", "9.0.2");
@@ -24,12 +27,15 @@ namespace ClubMembershipApplication.Migrations
                         .HasColumnType("INTEGER");
 
                     b.Property<string>("AddressCity")
+                        .IsRequired()
                         .HasColumnType("TEXT");
 
                     b.Property<string>("AddressFirstLine")
+                        .IsRequired()
                         .HasColumnType("TEXT");
 
                     b.Property<string>("AddressSecondLine")
+                        .IsRequired()
                         .HasColumnType("TEXT");
 
                     b.Property<DateTime>("DateOfBirth")
@@ -55,6 +61,7 @@ namespace ClubMembershipApplication.Migrations
                         .HasColumnType("TEXT");
 
                     b.Property<string>("PostCode")
+                        .IsRequired()
                         .HasColumnType("TEXT");
 
                     b.HasKey("Id");

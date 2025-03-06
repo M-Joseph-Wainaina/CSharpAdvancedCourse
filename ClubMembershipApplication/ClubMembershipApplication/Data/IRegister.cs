@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ClubMembershipApplication.Data
 {
-    internal interface IRegister
+    public interface IRegister
     {
         bool Register(string[] fields);
 

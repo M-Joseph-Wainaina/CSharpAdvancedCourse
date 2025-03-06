@@ -75,11 +75,11 @@ namespace ClubMembershipApplication.FieldValidator
                 case FieldConstants.UserRegistrationField.EmailAddress:
                     fieldInvalidMessage = (!_requiredValidDel(fieldValue)) ? $"You must enter a valid field for : {Enum.GetName(typeof(FieldConstants.UserRegistrationField), userRegistrationFields)}{Environment.NewLine}" : "";
                     fieldInvalidMessage = (fieldInvalidMessage == "" && !_patternMatchValidDel(fieldValue, CommonRegularExpressionValidationPattern.Email_Address_RegEx_Pattern)) ? $"You must enter a valid email address {Environment.NewLine}" : fieldInvalidMessage;
+                    fieldInvalidMessage = (fieldInvalidMessage == "" && _emailExistsDel(fieldValue)) ? $"Your email already exists. Please try again {Environment.NewLine}" : fieldInvalidMessage;
                     break;
                 case FieldConstants.UserRegistrationField.FirstName:
                     fieldInvalidMessage = (!_requiredValidDel(fieldValue)) ? $"You must enter a valid field for : {Enum.GetName(typeof(FieldConstants.UserRegistrationField), userRegistrationFields)}{Environment.NewLine}" : "";
                     fieldInvalidMessage = (fieldInvalidMessage == "" && !_stringLengthValidDel(fieldValue,FirstName_Min_Length, FirstName_Max_Length)) ? $"The length for the field is betweeen {FirstName_Min_Length} and {FirstName_Max_Length} {Environment.NewLine}" : fieldInvalidMessage;
-                    fieldInvalidMessage = (fieldInvalidMessage == "" && !_emailExistsDel(fieldValue)) ? $"Your email already exists. Please try again {Environment.NewLine}" : fieldInvalidMessage;
                     break;
                 case FieldConstants.UserRegistrationField.LastName:
                     fieldInvalidMessage = (!_requiredValidDel(fieldValue)) ? $"You must enter a valid field for : {Enum.GetName(typeof(FieldConstants.UserRegistrationField), userRegistrationFields)}{Environment.NewLine}" : "";

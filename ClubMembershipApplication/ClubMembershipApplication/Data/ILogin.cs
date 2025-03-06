@@ -7,7 +7,7 @@ using ClubMembershipApplication.Models;
 
 namespace ClubMembershipApplication.Data
 {
-    internal interface ILogin
+    public interface ILogin
     {
         User Login(string emailAddress , string password);
 
