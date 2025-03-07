@@ -1,0 +1,15 @@
+C:\Users\Wainaina\source\repos\csharp-crush-course\Covariance and Contravariance\Covariance and Contravariance\bin\Debug\net8.0\Covariance and Contravariance.exe
+C:\Users\Wainaina\source\repos\csharp-crush-course\Covariance and Contravariance\Covariance and Contravariance\bin\Debug\net8.0\Covariance and Contravariance.deps.json
+C:\Users\Wainaina\source\repos\csharp-crush-course\Covariance and Contravariance\Covariance and Contravariance\bin\Debug\net8.0\Covariance and Contravariance.runtimeconfig.json
+C:\Users\Wainaina\source\repos\csharp-crush-course\Covariance and Contravariance\Covariance and Contravariance\bin\Debug\net8.0\Covariance and Contravariance.dll
+C:\Users\Wainaina\source\repos\csharp-crush-course\Covariance and Contravariance\Covariance and Contravariance\bin\Debug\net8.0\Covariance and Contravariance.pdb
+C:\Users\Wainaina\source\repos\csharp-crush-course\Covariance and Contravariance\Covariance and Contravariance\obj\Debug\net8.0\Covariance and Contravariance.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Wainaina\source\repos\csharp-crush-course\Covariance and Contravariance\Covariance and Contravariance\obj\Debug\net8.0\Covariance and Contravariance.AssemblyInfoInputs.cache
+C:\Users\Wainaina\source\repos\csharp-crush-course\Covariance and Contravariance\Covariance and Contravariance\obj\Debug\net8.0\Covariance and Contravariance.AssemblyInfo.cs
+C:\Users\Wainaina\source\repos\csharp-crush-course\Covariance and Contravariance\Covariance and Contravariance\obj\Debug\net8.0\Covariance and Contravariance.csproj.CoreCompileInputs.cache
+C:\Users\Wainaina\source\repos\csharp-crush-course\Covariance and Contravariance\Covariance and Contravariance\obj\Debug\net8.0\Covariance and Contravariance.sourcelink.json
+C:\Users\Wainaina\source\repos\csharp-crush-course\Covariance and Contravariance\Covariance and Contravariance\obj\Debug\net8.0\Covariance and Contravariance.dll
+C:\Users\Wainaina\source\repos\csharp-crush-course\Covariance and Contravariance\Covariance and Contravariance\obj\Debug\net8.0\refint\Covariance and Contravariance.dll
+C:\Users\Wainaina\source\repos\csharp-crush-course\Covariance and Contravariance\Covariance and Contravariance\obj\Debug\net8.0\Covariance and Contravariance.pdb
+C:\Users\Wainaina\source\repos\csharp-crush-course\Covariance and Contravariance\Covariance and Contravariance\obj\Debug\net8.0\Covariance and Contravariance.genruntimeconfig.cache
+C:\Users\Wainaina\source\repos\csharp-crush-course\Covariance and Contravariance\Covariance and Contravariance\obj\Debug\net8.0\ref\Covariance and Contravariance.dll
