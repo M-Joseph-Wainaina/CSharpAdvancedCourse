@@ -3,19 +3,23 @@
     internal class Program
     {
         delegate Car CarFactoryDelegate(int id, string name);
+        delegate void LogCarDetailsDEl(Car car);
         static void Main(string[] args)
         {
-            CarFactoryDelegate carFactoryDelegate = CarFactory.ReturnICECar;
+            //CarFactoryDelegate carFactoryDelegate = CarFactory.ReturnICECar;
 
-            Car iceCar = carFactoryDelegate(1, "Toyota");
+            Car iceCar = CarFactory.ReturnICECar(1, "Toyota");
+            
+           // Console.WriteLine(iceCar.GetCarDetails());
 
-            Console.WriteLine(iceCar.GetCarDetails());
+            //carFactoryDelegate = CarFactory.ReturnEVCar;
 
-            carFactoryDelegate = CarFactory.ReturnEVCar;
+            Car evCar = CarFactory.ReturnEVCar(2, "B.Y.D");
 
-            Car evCar = carFactoryDelegate(2, "B.Y.D");
-
-            Console.WriteLine(evCar.GetCarDetails());
+            // Console.WriteLine(evCar.GetCarDetails());
+            LogCarDetailsDEl logCarDetailsDEL = LogCarDetails.LogCarDetailsToConsolAndFile;
+            logCarDetailsDEL(iceCar);
+            logCarDetailsDEL(evCar);
 
 
         }
@@ -32,6 +36,20 @@
             return new EVCar { Id = id, Name = name };
         }
     }
+
+    public static class LogCarDetails
+    {
+        public static void LogCarDetailsToConsolAndFile(Car car)
+        {
+            Console.WriteLine(car.GetCarDetails());
+            using (StreamWriter sw = new StreamWriter($"{AppDomain.CurrentDomain.BaseDirectory}/logfile.txt", true))
+            {
+                sw.WriteLine(car.GetCarDetails());
+            }
+        }
+    }
+
+
 
     public abstract class Car
     { 

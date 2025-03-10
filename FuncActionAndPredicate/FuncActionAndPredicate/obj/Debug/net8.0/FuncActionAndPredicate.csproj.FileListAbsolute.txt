@@ -1,0 +1,15 @@
+C:\Users\Wainaina\source\repos\csharp-crush-course\FuncActionAndPredicate\FuncActionAndPredicate\bin\Debug\net8.0\FuncActionAndPredicate.exe
+C:\Users\Wainaina\source\repos\csharp-crush-course\FuncActionAndPredicate\FuncActionAndPredicate\bin\Debug\net8.0\FuncActionAndPredicate.deps.json
+C:\Users\Wainaina\source\repos\csharp-crush-course\FuncActionAndPredicate\FuncActionAndPredicate\bin\Debug\net8.0\FuncActionAndPredicate.runtimeconfig.json
+C:\Users\Wainaina\source\repos\csharp-crush-course\FuncActionAndPredicate\FuncActionAndPredicate\bin\Debug\net8.0\FuncActionAndPredicate.dll
+C:\Users\Wainaina\source\repos\csharp-crush-course\FuncActionAndPredicate\FuncActionAndPredicate\bin\Debug\net8.0\FuncActionAndPredicate.pdb
+C:\Users\Wainaina\source\repos\csharp-crush-course\FuncActionAndPredicate\FuncActionAndPredicate\obj\Debug\net8.0\FuncActionAndPredicate.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Wainaina\source\repos\csharp-crush-course\FuncActionAndPredicate\FuncActionAndPredicate\obj\Debug\net8.0\FuncActionAndPredicate.AssemblyInfoInputs.cache
+C:\Users\Wainaina\source\repos\csharp-crush-course\FuncActionAndPredicate\FuncActionAndPredicate\obj\Debug\net8.0\FuncActionAndPredicate.AssemblyInfo.cs
+C:\Users\Wainaina\source\repos\csharp-crush-course\FuncActionAndPredicate\FuncActionAndPredicate\obj\Debug\net8.0\FuncActionAndPredicate.csproj.CoreCompileInputs.cache
+C:\Users\Wainaina\source\repos\csharp-crush-course\FuncActionAndPredicate\FuncActionAndPredicate\obj\Debug\net8.0\FuncActionAndPredicate.sourcelink.json
+C:\Users\Wainaina\source\repos\csharp-crush-course\FuncActionAndPredicate\FuncActionAndPredicate\obj\Debug\net8.0\FuncActionAndPredicate.dll
+C:\Users\Wainaina\source\repos\csharp-crush-course\FuncActionAndPredicate\FuncActionAndPredicate\obj\Debug\net8.0\refint\FuncActionAndPredicate.dll
+C:\Users\Wainaina\source\repos\csharp-crush-course\FuncActionAndPredicate\FuncActionAndPredicate\obj\Debug\net8.0\FuncActionAndPredicate.pdb
+C:\Users\Wainaina\source\repos\csharp-crush-course\FuncActionAndPredicate\FuncActionAndPredicate\obj\Debug\net8.0\FuncActionAndPredicate.genruntimeconfig.cache
+C:\Users\Wainaina\source\repos\csharp-crush-course\FuncActionAndPredicate\FuncActionAndPredicate\obj\Debug\net8.0\ref\FuncActionAndPredicate.dll
