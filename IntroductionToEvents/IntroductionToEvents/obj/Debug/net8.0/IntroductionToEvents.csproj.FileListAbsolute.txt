@@ -1,0 +1,15 @@
+C:\Users\Wainaina\source\repos\csharp-crush-course\IntroductionToEvents\IntroductionToEvents\bin\Debug\net8.0\IntroductionToEvents.exe
+C:\Users\Wainaina\source\repos\csharp-crush-course\IntroductionToEvents\IntroductionToEvents\bin\Debug\net8.0\IntroductionToEvents.deps.json
+C:\Users\Wainaina\source\repos\csharp-crush-course\IntroductionToEvents\IntroductionToEvents\bin\Debug\net8.0\IntroductionToEvents.runtimeconfig.json
+C:\Users\Wainaina\source\repos\csharp-crush-course\IntroductionToEvents\IntroductionToEvents\bin\Debug\net8.0\IntroductionToEvents.dll
+C:\Users\Wainaina\source\repos\csharp-crush-course\IntroductionToEvents\IntroductionToEvents\bin\Debug\net8.0\IntroductionToEvents.pdb
+C:\Users\Wainaina\source\repos\csharp-crush-course\IntroductionToEvents\IntroductionToEvents\obj\Debug\net8.0\IntroductionToEvents.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Wainaina\source\repos\csharp-crush-course\IntroductionToEvents\IntroductionToEvents\obj\Debug\net8.0\IntroductionToEvents.AssemblyInfoInputs.cache
+C:\Users\Wainaina\source\repos\csharp-crush-course\IntroductionToEvents\IntroductionToEvents\obj\Debug\net8.0\IntroductionToEvents.AssemblyInfo.cs
+C:\Users\Wainaina\source\repos\csharp-crush-course\IntroductionToEvents\IntroductionToEvents\obj\Debug\net8.0\IntroductionToEvents.csproj.CoreCompileInputs.cache
+C:\Users\Wainaina\source\repos\csharp-crush-course\IntroductionToEvents\IntroductionToEvents\obj\Debug\net8.0\IntroductionToEvents.sourcelink.json
+C:\Users\Wainaina\source\repos\csharp-crush-course\IntroductionToEvents\IntroductionToEvents\obj\Debug\net8.0\IntroductionToEvents.dll
+C:\Users\Wainaina\source\repos\csharp-crush-course\IntroductionToEvents\IntroductionToEvents\obj\Debug\net8.0\refint\IntroductionToEvents.dll
+C:\Users\Wainaina\source\repos\csharp-crush-course\IntroductionToEvents\IntroductionToEvents\obj\Debug\net8.0\IntroductionToEvents.pdb
+C:\Users\Wainaina\source\repos\csharp-crush-course\IntroductionToEvents\IntroductionToEvents\obj\Debug\net8.0\IntroductionToEvents.genruntimeconfig.cache
+C:\Users\Wainaina\source\repos\csharp-crush-course\IntroductionToEvents\IntroductionToEvents\obj\Debug\net8.0\ref\IntroductionToEvents.dll
