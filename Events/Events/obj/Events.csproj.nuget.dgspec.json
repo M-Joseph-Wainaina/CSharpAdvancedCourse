@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Wainaina\\source\\repos\\csharp-crush-course\\Events\\Events\\Events.csproj": {}
+    "C:\\Users\\Wainaina\\source\\repos\\CsharpAdvancedCourse\\Events\\Events\\Events.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Wainaina\\source\\repos\\csharp-crush-course\\Events\\Events\\Events.csproj": {
+    "C:\\Users\\Wainaina\\source\\repos\\CsharpAdvancedCourse\\Events\\Events\\Events.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Wainaina\\source\\repos\\csharp-crush-course\\Events\\Events\\Events.csproj",
+        "projectUniqueName": "C:\\Users\\Wainaina\\source\\repos\\CsharpAdvancedCourse\\Events\\Events\\Events.csproj",
         "projectName": "Events",
-        "projectPath": "C:\\Users\\Wainaina\\source\\repos\\csharp-crush-course\\Events\\Events\\Events.csproj",
+        "projectPath": "C:\\Users\\Wainaina\\source\\repos\\CsharpAdvancedCourse\\Events\\Events\\Events.csproj",
         "packagesPath": "C:\\Users\\Wainaina\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Wainaina\\source\\repos\\csharp-crush-course\\Events\\Events\\obj\\",
+        "outputPath": "C:\\Users\\Wainaina\\source\\repos\\CsharpAdvancedCourse\\Events\\Events\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

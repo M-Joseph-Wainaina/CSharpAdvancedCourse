@@ -5,26 +5,45 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            Console.WriteLine("Press A to simulate a button click");
+
+            var key = Console.ReadLine();
+
+            if (key == "A")
+            {
+                KeyPressed();
+            }
+
+            
+        }
+
+        public static void KeyPressed()
+        {
+            Button button1 = new Button();
+
+            button1.ClickEvent += (s, e) =>
+            {
+                Console.WriteLine("This is button 1 response");
+            };
+
+            Button button2 = new Button();
+
+            button2.ClickEvent += (s, e) => { Console.WriteLine("This is button 2 response"); };
+
+
+            button1.OnClick();
+            button2.OnClick();
         }
     }
 
-    public class Publisher
+    public class Button
     {
-        public event EventHandler<EventArgs> PublisherChanged;
+        public EventHandler ClickEvent;
 
-        public void TriggerEvent(string message)
+
+        public void OnClick()
         {
-            PublisherChanged?.Invoke(this, new EventArgs());
-        }
-
-    }
-
-    public class Subscriber
-    {
-        public void OnEventTriggered(string message) 
-        {
-            Console.WriteLine($"the event was triggered with the message : {message}");
+            ClickEvent.Invoke(this, EventArgs.Empty);
         }
     }
 
